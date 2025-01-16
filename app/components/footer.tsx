@@ -34,13 +34,13 @@ function Footer() {
               <h2 className="font-bold text-lg">Company</h2>
               <ul className="space-y-1 font-medium text-muted-foreground">
                 <li>
-                  <Link to="/">About</Link>
+                  <Link to="/about">About</Link>
                 </li>
                 <li>
-                  <Link to="/">Terms</Link>
+                  <Link to="/terms">Terms</Link>
                 </li>
                 <li>
-                  <Link to="/">Privacy Policy</Link>
+                  <Link to="/privacy-policy">Privacy Policy</Link>
                 </li>
               </ul>
             </div>
@@ -48,10 +48,10 @@ function Footer() {
               <h2 className="font-bold text-lg">Support</h2>
               <ul className="space-y-1 font-medium text-muted-foreground">
                 <li>
-                  <Link to="/">Help</Link>
+                  <Link to="/help">Help</Link>
                 </li>
                 <li>
-                  <Link to="/">FAQ</Link>
+                  <Link to="/faq">FAQ</Link>
                 </li>
                 <li>
                   <Link to="/">Delivery</Link>

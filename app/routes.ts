@@ -9,8 +9,8 @@ export default [
   layout("routes/main-layout.tsx", [
     index("routes/home.tsx"),
     route("about", "routes/about.tsx"),
-    // route("terms", "routes/terms.tsx"),
-    // route("privacy-policy", "routes/priv.tsx"),
+    route("terms", "routes/terms.tsx"),
+    route("privacy-policy", "routes/privacy-policy.tsx"),
   ]),
   layout("routes/auth/layout.tsx", [
     route("login", "routes/auth/login.tsx"),
