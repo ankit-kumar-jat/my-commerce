@@ -1,4 +1,4 @@
-import { Outlet } from "react-router";
+import { Link, Outlet } from "react-router";
 import { Logo } from "~/components/logo";
 import { Card, CardContent } from "~/components/ui/card";
 
@@ -28,7 +28,8 @@ function AuthLayout() {
           </div>
           <div className="text-balance text-center text-xs text-muted-foreground [&_a]:underline [&_a]:underline-offset-4 hover:[&_a]:text-primary">
             By clicking continue, you agree to our{" "}
-            <a href="#">Terms of Service</a> and <a href="#">Privacy Policy</a>.
+            <Link to="/terms">Terms of Service</Link> and{" "}
+            <Link to="/privacy-policy">Privacy Policy</Link>.
           </div>
         </div>
       </div>
