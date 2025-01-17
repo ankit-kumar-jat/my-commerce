@@ -24,10 +24,10 @@ function Header() {
           <Link to="/search" className="p-2">
             <SearchIcon />
           </Link>
-          <Link to="/my-cart" className="p-2" title="My Cart">
+          <Link to="/cart" className="p-2" title="My Cart">
             <ShoppingBagIcon />
           </Link>
-          <Link to="/my-profile" className="p-2" title="My Account">
+          <Link to="/profile" className="p-2" title="My Account">
             <UserIcon />
           </Link>
         </div>
